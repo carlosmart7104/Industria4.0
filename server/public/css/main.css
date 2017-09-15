@@ -1,0 +1,35 @@
+.vertical-center {
+	position: absolute;
+	top: 0px;
+}
+
+.panel-element-header {
+	display: block;
+	font-size: 35px;
+}
+
+.panel-element-content {
+	display: block;
+	font-size: 75px;
+	line-height: middle;
+}
+
+.panel-element-footer {
+	display: block;
+	font-size: 10px;
+}
+
+#panel-central {
+	display: block;
+	position: relative;
+}
+
+#logos{
+	display: block;
+	position: relative;
+	margin-top: 450px;
+}
+
+#logos > img {
+	margin: 0px 15px;
+}

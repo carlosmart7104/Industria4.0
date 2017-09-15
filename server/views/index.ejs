@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es_Mx">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Industria 4.0</title>
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/main.css">
+
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div id="panel-central" class="vertical-center text-center col-xs-6 col-xs-offset-3">
+				<div class="page-header">
+				  <h1>Internet of Things / Industria 4.0</h1>
+				</div>
+					<div class="panel-element col-xs-6" id="contador">
+						<div class="panel-element-header">
+							Cajas						
+						</div>
+						<div id="cuenta" class="panel-element-content">9999</div>
+						<div class="panel-element-footer">
+							<div class="btn-group btn-group-justified" role="group" aria-label="...">
+							  <div class="btn-group" role="group">
+							    <button id="sensor" id="decrementar" type="button" class="btn btn-default">
+							    	<span class="glyphicon glyphicon-play" aria-hidden="true"></span>
+							    </button>
+							  </div>
+							  <div class="btn-group" role="group">
+							    <button id="reset" id="incrementar" type="button" class="btn btn-default">
+							    	<span class="glyphicon glyphicon-repeat" aria-hidden="true"></span>
+							    </button>
+							  </div>
+							</div>
+						</div>
+					</div>
+					<div class="panel-element col-xs-6" id="limitador">
+						<div class="panel-element-header">
+							Límite
+						</div>
+						<div id="limite" class="panel-element-content text-">9999</div>
+						<div class="panel-content-footer">
+							<div class="btn-group btn-group-justified" role="group" aria-label="...">
+							  <div class="btn-group" role="group">
+							    <button id="decrementar" type="button" class="btn btn-default">
+							    	<span class="glyphicon glyphicon-minus" aria-hidden="true"></span>
+							    </button>
+							  </div>
+							  <div class="btn-group" role="group">
+							    <button id="incrementar" type="button" class="btn btn-default">
+							    	<span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+							    </button>
+							  </div>
+							</div>
+					</div>
+				</div>	
+			</div>
+			<div class="row text-center">
+				<div id="logos" class="vertical-center">
+					<img src="img/itv.png" width="100px" alt="ITV logo">
+					<img src="img/club.png" width="100px" alt="Club de Robótica logo">
+					<img src="img/mm.png" width="90px" alt="Mundo Mecatrónico logo">
+					<img src="img/printucraft.png" width="300px" alt="Printucraft logo">
+				</div>
+			</div>
+			<div class="text-center" style="margin-top: 40px">
+				Autor: carlosmart7104. Licencia: Apache 2.0. Repositorio: <a target="_blank" href="https://github.com/carlosmart7104/Industria4.0">https://github.com/carlosmart7104/Industria4.0</a>
+			</div>
+		</div>
+		<!-- jQuery -->
+		<script src="jquery/dist/jquery.min.js"></script>
+		<!-- Bootstrap JavaScript -->
+		<script src="bootstrap/dist/js/bootstrap.min.js"></script>
+		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+ 		<script src="js/websockets.js"></script>
+ 		<script src="js/main.js"></script>
+	</body>
+</html>

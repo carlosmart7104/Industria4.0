@@ -1,0 +1,25 @@
+{
+  "name": "industria_4.0",
+  "description": "Un ejemplo sencillo de IoT e Industria 4.0",
+  "main": "index.js",
+  "authors": [
+    "carlosmart7104@gmail.com"
+  ],
+  "license": "Apache-2.0",
+  "keywords": [
+    "IoT",
+    "Industria_4.0"
+  ],
+  "homepage": "https://github.com/carlosmart7104/Industria4.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "bootstrap": "^3.3.7"
+  }
+}

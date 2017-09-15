@@ -1,0 +1,26 @@
+{
+  "name": "industria_4.0",
+  "version": "1.0.0",
+  "description": "Un ejemplo sencillo de IoT e Industria 4.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlosmart7104/Industria4.0.git"
+  },
+  "keywords": [
+    "IoT",
+    "Industria_4.0"
+  ],
+  "author": "carlosmart7104@gmail.com",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/carlosmart7104/Industria4.0/issues"
+  },
+  "homepage": "https://github.com/carlosmart7104/Industria4.0#readme",
+  "dependencies": {
+    "bower": "^1.8.0",
+    "ejs": "^2.5.6",
+    "express": "^4.14.1",
+    "ws": "^2.1.0"
+  }
+}
